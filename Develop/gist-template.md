@@ -1,12 +1,9 @@
-# Title (replace with your title)
-
-Regex Tutorial for Matching an Email
+# Regex Tutorial for Matching an Email
 
 ## Summary
 
 This tutorial explains how to use a regular expression (a.k.a. regex) to match emails. This is helpful for when you need to validate whether an email matches. The regex code being explained is: 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
 
 ## Table of Contents
 
@@ -30,11 +27,11 @@ The ^ symbol designates the beginning of the the string, while the $ symbol show
 
 ### Quantifiers
 
-### OR Operator
+The {2,6} in the expression is a quantifier. It indicates that the string should be between should be between 2 and 6 characters long. The other quantifier in the expression is the "+" symbol. It works to connect the the username, email service and domain name of the email together. 
 
 ### Character Classes
 
-### Flags
+The \d in the second grouping is a character class and matches a single character that is a digit.
 
 ### Grouping and Capturing
 
@@ -49,14 +46,13 @@ The [] symbols in this expression group items and indicate what will be allowed 
 
 ### Greedy and Lazy Match
 
+The "+" symbol is a greedy operator. It expands the match as far as it can.
+
 ### Boundaries
 
 The forward slash (/) character is used to denote the boundaries of the regular expression
 
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Andrea Rowland
+https://github.com/Andrea-Rowland
