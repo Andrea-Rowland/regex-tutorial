@@ -9,15 +9,10 @@ This tutorial explains how to use a regular expression (a.k.a. regex) to match e
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -47,10 +42,6 @@ The [] symbols in this expression group items and indicate what will be allowed 
 ### Greedy and Lazy Match
 
 The "+" symbol is a greedy operator. It expands the match as far as it can.
-
-### Boundaries
-
-The forward slash (/) character is used to denote the boundaries of the regular expression
 
 ## Author
 
